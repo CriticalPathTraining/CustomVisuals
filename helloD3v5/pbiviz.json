@@ -1,0 +1,24 @@
+{
+    "visual": {
+        "name": "helloD3v5",
+        "displayName": "helloD3v5",
+        "guid": "helloD3v5C4F919DF14F74163B9399237B1E80236",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "",
+        "supportUrl": "",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "2.2.0",
+    "author": {
+        "name": "",
+        "email": ""
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",    
+    "stringResources": []
+}
