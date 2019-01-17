@@ -1,0 +1,19 @@
+{
+  "name": "visual",
+  "scripts": {
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package"
+  },
+  "dependencies": {
+    "powerbi-visuals-api": "~2.2.0",
+    "powerbi-visuals-tools": "^3.0.9",
+    "powerbi-visuals-utils-dataviewutils": "2.0.1"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.5.0",
+    "d3": "^5.7.0",
+    "ts-loader": "4.5.0",
+    "typescript": "3.0.1"
+  }
+}

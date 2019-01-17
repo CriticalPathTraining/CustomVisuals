@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./style/visual.less"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"visual.css","sourcesContent":["svg {\n  background-color: pink;\n  fill: azure;\n  stroke: lightsteelblue;\n  stroke-width: 1;\n}\nellipse {\n  fill: red;\n}\n"],"sourceRoot":""}

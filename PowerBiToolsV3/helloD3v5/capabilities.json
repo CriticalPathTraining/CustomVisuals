@@ -1,0 +1,11 @@
+{
+
+    "dataRoles": [ { "displayName": "Values", "name": "values", "kind": "Grouping" }],
+
+    "dataViewMappings": [{
+        "categorical": { "values": {"select": [ { "bind": { "to": "values" } } ] } }
+    }],
+
+    "objects": {}
+
+}
