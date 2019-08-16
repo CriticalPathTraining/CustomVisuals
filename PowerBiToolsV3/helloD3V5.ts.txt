@@ -1,13 +1,11 @@
-"use strict";
-
-import "./../style/visual.less";
-
 import powerbi from "powerbi-visuals-api";
 import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions;
 import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions;
 import IVisual = powerbi.extensibility.visual.IVisual;
 
 import * as d3 from "d3";
+
+// import "./../style/visual.less";
 
 export class Visual implements IVisual {
 
@@ -22,17 +20,13 @@ export class Visual implements IVisual {
         this.svgRoot = d3.select(options.element).append("svg");
 
         this.ellipse = this.svgRoot.append("ellipse")
-            .style("stroke", "rgba(0, 0, 0, 1.0)")
-            .style("stroke-width", "4");
+            .attr("fill", "#FEBF0F");
 
         this.text = this.svgRoot.append("text")
             .text("Hello D3")
             .attr("text-anchor", "middle")
-            .attr("dominant-baseline", "central")
-            .style("fill", "rgba(255, 0, 0, 1.0)")
-            .style("stroke", "rgba(0, 0, 0, 1.0)")
-            .style("stroke-width", "2");
-
+            .attr("dominant-baseline", "central");
+    
         this.RenderVisual(options.element.clientWidth, options.element.clientHeight);
 
     }
