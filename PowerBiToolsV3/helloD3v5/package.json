@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "powerbi-visuals-api": "~2.2.0",
-    "powerbi-visuals-tools": "^3.0.9",
+    "powerbi-visuals-tools": "^3.4.3",
     "powerbi-visuals-utils-dataviewutils": "2.0.1"
   },
   "devDependencies": {
