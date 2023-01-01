@@ -17,7 +17,7 @@
     "powerbi-visuals-utils-formattingutils": "^4.4.1"
   },
   "devDependencies": {
-    "ts-loader": "5.2.2",
+    "ts-loader": "9.4.2",
     "typescript": "3.0.1"
   }
 }
